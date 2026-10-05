@@ -147,3 +147,17 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# Dependencies and credentials
+node_modules/
+.env
+.env.*
+!.env.example
+
+# WhatsApp login sessions and cache
+.wwebjs_auth/
+.wwebjs_cache/
+
+# Logs
+*.log
+qualitybot-log.txt
